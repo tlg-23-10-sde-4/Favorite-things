@@ -26,3 +26,11 @@ p {
 body {
     background-image: url(https://thumbs.dreamstime.com/b/tire-tracks-13240273.jpg);
 }
+hr {
+    height: 5px;
+    background-color: burlywood;
+}
+img {
+    padding: 20px;
+    background-color: burlywood;
+}
