@@ -1,0 +1,28 @@
+html {
+    text-align: center;
+}
+h1, h2, p {
+    background-color: green;
+    padding: 10px;
+}
+h1, h2 {
+    font-family: Impact
+  }
+h1 {
+    font-size: xx-large;
+}
+h2 {
+    font-size: x-large;
+}
+p {
+    font-size: larger;
+    padding: 20px;
+    word-wrap: normal;
+}
+#pic-link {
+    color: burlywood;
+    font-size: larger;
+}
+body {
+    background-image: url(https://thumbs.dreamstime.com/b/tire-tracks-13240273.jpg);
+}
