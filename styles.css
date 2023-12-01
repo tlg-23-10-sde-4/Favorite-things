@@ -1,12 +1,12 @@
-html {
-    text-align: center;
-}
-h1, h2, p {
-    background-color: green;
+
+h1, h2 {
+    background: linear-gradient(45deg, black, burlywood);
     padding: 10px;
+    text-align: center;
 }
 h1, h2 {
     font-family: Impact
+    
   }
 h1 {
     font-size: xx-large;
@@ -14,12 +14,17 @@ h1 {
 h2 {
     font-size: x-large;
 }
-p {
+
+
+p[class] {
+    text-align: center;
     font-size: larger;
     padding: 20px;
     word-wrap: normal;
+    background: linear-gradient(45deg, black, burlywood);
+    width: 560px;
 }
-#pic-link {
+p > a {
     color: burlywood;
     font-size: larger;
 }
@@ -28,9 +33,17 @@ body {
 }
 hr {
     height: 5px;
-    background-color: burlywood;
+    background: linear-gradient(45deg, black, burlywood);
 }
 img {
     padding: 20px;
-    background-color: burlywood;
+    background: linear-gradient(45deg, black, burlywood);
+    border: groove 1em linear-gradient(45deg, black, burlywood);
+  border-radius: 2em;
+}
+iframe {
+    background: linear-gradient(45deg, black, burlywood);
+    padding: 20px;
+    border: groove 1em linear-gradient(45deg, burlywood, black);
+    border-radius: 2em;
 }
